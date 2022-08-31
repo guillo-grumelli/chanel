@@ -1,0 +1,55 @@
+
+
+.cuerpo{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+}
+
+.padre{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    margin-left: 400px;
+    margin-right: 500px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+img{
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+h3{
+    margin-left: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2{
+    margin-left: 30px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+h1{
+    margin-left: 30px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.precio{
+    color: darkolivegreen;
+}
+
+button{
+    margin-left: 30px;
+    border-radius: 10px;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Roboto Condensed', sans-serif;
+}
